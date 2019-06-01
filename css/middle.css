@@ -1,0 +1,246 @@
+.middle-content{
+	height: 480px;
+}
+.grid-col1{
+	height: 100%;
+	width: 190px;
+	background-color: #6e6568;
+	color: #fff;
+}
+.grid-col1 a{
+	color: #fff;
+	margin: 0 3px;
+	font-size: 14px;
+}
+.grid-col1 a:hover{
+	color: #f10215;
+}
+.grid-col1 ul{
+	padding: 10px 0; 
+}
+.grid-col1 li{
+	padding-left: 12px;
+	height: 29px;
+	line-height: 26px;
+}
+.grid-col1 li:hover{
+	background-color: #9c9698;
+}
+.grid-col2{
+	height: 100%;
+	width: 790px;
+	margin-left: 10px;
+}
+.grid-col2 img{
+	display: block;
+}
+.grid-col2-top{
+	position: relative;
+}
+.arrow-left,.arrow-right{
+	width: 30px;
+	height: 60px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 30px;
+	text-align: center;
+	color: rgba(255, 255, 255, .6);
+	line-height: 60px;
+	background-color: rgba(0, 0, 0, .3); 
+	font-weight: bold;
+}
+.arrow-right{
+	right: 0;
+}
+.circle{
+	width: 175px;
+	height: 20px;
+	line-height: 20px;
+	border-radius: 10px;
+	background: rgba(255, 255, 255, .3);
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	transform: translateX(-50%);
+
+}
+.circle li{
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin-left: 9px;
+	margin-top: 5px; 
+	border-radius: 50%;
+	float: left;
+	background-color: #fff;
+	cursor: pointer;
+}
+.grid-col2-top .circle .choosen{
+	background-color: #f10215;
+}
+.grid-col2-bot img{
+	margin-top: 10px;
+}
+.grid-col3{
+	height: 100%;
+	width: 190px;
+	background-color: #fff;
+}
+.grid-col3 .login{
+	height: 85px;
+	padding: 15px;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+}
+.grid-col3 .news{
+	height: 146px;
+	border-bottom: 1px solid #ccc;
+	padding: 7px 13px 0;
+}
+.news .news-top{
+	height: 19px;
+	border-bottom: 1px solid #ccc;
+	position: relative;
+}
+.news-top div{
+	width: 28px;
+	height: 2px;
+	background-color: #f10215;
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+}
+.news .news-top a{
+	height: 17px;
+	line-height: 17px;
+	font-size: 12px;
+}
+.news-bot{
+	padding-top: 15px;
+}
+.news-bot li{
+	height: 23px;
+	line-height: 23px;
+}
+.news-bot li a{
+	font-size: 12px;
+}
+.grid-col3 .expand{
+	height: 209px;
+	background-color: #fff;
+	overflow: hidden;
+}
+.expand ul{
+	width: 195px;
+}
+.expand li{
+	width: 47px;
+	height: 69px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	float: left;
+}
+.expand ul li a{
+	display: block;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 15px;
+}
+.expand ul li i{
+	display: block;
+	margin: 0 auto;
+	background: url(../images/sprite_fs@1x.png) no-repeat;
+	width: 24px;
+	height: 23px;
+	margin-bottom: 10px;
+}
+.expand li:nth-child(1) i{
+	background-position: 0 -88px;
+}
+.expand li:nth-child(2) i{
+	background-position: 0 -44px;
+}
+.expand li:nth-child(3) i{
+	background-position: -44px -88px;
+}
+.expand li:nth-child(4) i{
+	background-position: -88px 0;
+}
+.expand li:nth-child(5) i{
+	background-position: -88px -44px;
+}
+.expand li:nth-child(6) i{
+	background-position: 0 0;
+}
+.expand li:nth-child(7) i{
+	background-position: -44px -44px;
+}
+.expand li:nth-child(8) i{
+	background-position: -88px -88px;
+}
+.expand li:nth-child(9) i{
+	background-position: -132px 0;
+}
+.expand li:nth-child(10) i{
+	background-position: -132px -44px;
+}
+.expand li:nth-child(11) i{
+	background-position: -132px -88px;
+}
+.expand li:nth-child(12) i{
+	background-position: -44px 0;
+}
+.cuxiao{
+	width: 38px;
+	border-right: 1px solid #ccc;
+}
+.gonggao{
+	margin-left: 15px;
+}
+.grid-col3 .login-top{
+	width: 95px;
+	font-size: 12px;
+	height: 60px;
+	line-height: 20px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis; 
+	position: relative;
+	padding-left: 60px;
+}
+.login-top a{
+	color: #666;
+}
+.login-top a:hover{
+	color: #f10215;
+}
+.login-bot a {
+	display: inline-block;
+	width: 70px;
+	height: 20px;
+	line-height: 20px;
+	border: 2px solid #f10215;
+	margin-right: 3px;
+	text-align: center;
+	color: #f10215;
+	font-size: 12px;
+}
+.login-bot a:hover {
+	background-color:  #f10215;
+	color: #fff;
+}
+.login .login-top .headpic img {
+	width: 40px;
+	height: 40px;
+	margin: 5px;
+	border-radius: 50%;
+}
+.headpic{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50px;
+	height: 50px;
+	background: url(../images/sprite_userinfo@1x.png) no-repeat -70px 0;
+}
